@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+/*---------Header-------------*/
+
+header {
+    background-color: #1b3358;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-left: 10px;
+}
+
+nav a {
+    font-size: 1.2rem;
+    padding: 20px;
+    color: white;
+}
+
+/*---------------Main-----------------*/
+
+.hello-div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+}
+
+.hello {
+    color: black;
+}
+
+.icon {
+    color: black;
+}
+
+.name {
+    color: #33658A;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.position {
+    color: #296EB4;
+}
+
+.more-btn {
+    display: block;
+    width: 65%;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid;
+    color: #4A6D7C;
+}
+
+/*--------Icons home--------------*/
+
+.socials {
+    margin-top: 50px;
+}
+
+.icon--home {
+    padding: 50px;
+    color: #6689A1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------Media----------*/
+
+@media screen and (max-width: 700px) {
+
+    /*---------Header-------------*/
+
+    nav a {
+        display: none;
+    }
+
+    nav a.icon {
+        float: right;
+        display: block;
+        color: black;
+    }
+
+    nav.responsive {
+        position: relative;
+    }
+
+    nav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    nav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 701px) {
+
+    /*---------Header-------------*/
+
+    nav a.icon {
+        display: none;
+    }
+}

@@ -141,7 +141,8 @@ nav a:hover {
 .profile {
     list-style: none;
     text-align: left;
-    margin-left: 510px;
+    /* margin-left: 510px; */
+    text-align: center;
 }
 
 .bottom {

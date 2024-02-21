@@ -223,7 +223,8 @@ li {
 }
 
 .hire-cv {
-    margin-top: 100px;
+    margin: 100px 0;
+
 }
 
 .hire-btn {
@@ -250,19 +251,77 @@ li {
     border: 3px solid #0d96e0;
 }
 
+/*------------Portfolio----------------*/
 
 
+.swiper-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 1000px;
+    background-color: #1b3358;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    white-space: pre-line;
+}
 
+.project-img {
+    width: 500px;
+    height: 275px;
+    border-radius: 25px;
+    margin: auto 0;
+}
 
+.img-height {
+    width: 250px;
+    height: 355px;
+}
 
+.read-more-portfolio {
+    color: #0d96e0;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 20px;
+    border: 3px solid #0d96e0;
+    margin-top: 15px;
+}
 
+.read-more-box {
+    display: none;
+    position: fixed;
+    top: 8%;
+    left: 32%;
+    width: 750px;
+    height: 750px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
+.read-more-box-content {
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
 
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
 
-
-
-
-
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 
 

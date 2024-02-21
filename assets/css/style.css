@@ -8,18 +8,10 @@ a {
     text-decoration: none;
 }
 
-html, body{
-    height: 100%;
+body {
+    font-family: 'Noto Serif', serif;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
-}
-
-.wrapper {
-    height: 100%;
-    width: 100%;
-}
 
 /*---------Header-------------*/
 
@@ -30,15 +22,27 @@ header {
     align-items: center;
     color: white;
     padding-left: 10px;
+    padding: 15px 10px;
 }
 
 nav a {
     font-size: 1.2rem;
-    padding: 20px;
+    margin: 20px;
     color: white;
 }
 
+nav a:hover {
+    border: 2px solid lightblue;
+    padding: 10px;
+    font-weight: bolder;
+    color: lightblue;
+}
+
 /*---------------Main-----------------*/
+
+#home {
+    text-transform: uppercase;
+}
 
 .hello-div {
     text-align: center;
@@ -59,6 +63,7 @@ nav a {
     color: #33658A;
     padding-bottom: 1rem;
     padding-top: 1rem;
+    font-size: 3.7rem;
 }
 
 .position {
@@ -67,10 +72,11 @@ nav a {
 
 .more-btn {
     display: block;
-    width: 65%;
+    width: 276px;
     margin: auto;
     margin-top: 20px;
-    border: 1px solid;
+    border: 2px solid;
+    padding: 20px;
     color: #4A6D7C;
 }
 
@@ -85,7 +91,60 @@ nav a {
     color: #6689A1;
 }
 
+/*------------About me----------------*/
 
+#about {
+    margin-top: 250px;
+    text-align: center;
+}
+
+.about {
+    margin-right: 115px;
+}
+
+.hoi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-title {
+    color: #33658A;
+    text-transform: uppercase;
+}
+
+.big-title {
+    font-size: 1.7rem;
+}
+
+.about-me {
+    color: #4A6D7C;
+    text-align: center;
+    white-space: pre-line;
+    padding: 50px;
+    font-size: 1.2rem;
+}
+
+.pfp {
+    border-radius: 50%;
+    width: 110px;
+    height: 100px;
+}
+
+/*------------profile and skills----------------*/
+
+.profile_skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.info-list {
+    line-height: 3rem;
+    margin-bottom: 3rem;
+    list-style: none;
+    text-align: left;
+    margin-left: 400px;
+}
 
 
 
@@ -153,7 +212,7 @@ nav a {
 
 /*---------Media----------*/
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 714px) {
 
     /*---------Header-------------*/
 
@@ -184,7 +243,7 @@ nav a {
     }
 }
 
-@media screen and (min-width: 701px) {
+@media screen and (min-width: 715px) {
 
     /*---------Header-------------*/
 
